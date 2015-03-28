@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS `Hackajobs`.`tbl_user` (
   `email` VARCHAR(1000) NOT NULL,
   `token` VARCHAR(255) NULL DEFAULT NULL,
   `role` INT(11) NOT NULL,
+  `facebook_id` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
